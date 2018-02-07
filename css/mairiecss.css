@@ -115,22 +115,19 @@ body{
 
 .div1{
         width: 50%;
-	height: 400px;
         float: left;
     /*    border: 5px solid black;*/
-/*         max-height: 580px; */
+        max-height: 580px;
         padding: 25px;}
 .div2{
         width: 50%;
-	height: 400px;
         float: left;
     /*    border: 5px solid black;*/
         padding: 25px;
-/*         max-height: 580px; */
+        max-height: 580px;
 }  
 
 .div3{ 
-    height: 400px;
     padding: 40px;
     margin-bottom: 10px;
     overflow: hidden;
@@ -177,14 +174,12 @@ img{
 
 .largeimg {
     width:99%;
-    height: 400px;
-/*    float: right;*/
+    /*    float: right;*/
 /*    margin-left: 15px;*/
 /*    margin-left: 20px;*/
   }
 .regularimg {
     width: 300px;
-    height: 400px;
     float: left;
     margin-left: 15px;
   }
@@ -306,22 +301,19 @@ footer{
     }
     .div1 {
         width: 99%;
-	height: 400px;
-        float: none;
+	float: none;
     /*    border: 5px solid black;*/
-/*         height: auto; */
+        height: auto;
         padding: 1px;}
     .div2 {
-	height: 400px;
-        width: 99%;
+	width: 99%;
         float: none;
     /*    border: 5px solid black;*/
         padding: 1px;
-/*         height: auto; */
+        height: auto;
     }  
     .div3 { 
-	height: 400px;
-        width: 99%;
+	width: 99%;
         padding: 2px;
         margin-bottom: 10px;
         overflow: hidden;
@@ -390,23 +382,20 @@ footer{
         font-size: 30px;
     }
     .div1 {
-	height: 400px;
-        width: 50%;
+	width: 50%;
         float: left;
     /*    border: 5px solid black;*/
 /*         height: auto; */
         padding: 3px;}
     .div2 {
-	height: 400px;
-        width: 50%;
+	width: 50%;
         float: left;
     /*    border: 5px solid black;*/
         padding: 3px;
 /*         height: auto; */
     }  
     .div3 { 
-	height: 400px;
-        width: 100%;
+	width: 100%;
         padding: 2px;
         margin-bottom: 10px;
         overflow: hidden;
