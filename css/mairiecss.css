@@ -304,14 +304,14 @@ footer{
         width: 99%;
         float: none;
     /*    border: 5px solid black;*/
-        height: auto;
+        max-height: 580px;
         padding: 1px;}
     .div2 {
         width: 99%;
         float: none;
     /*    border: 5px solid black;*/
         padding: 1px;
-        height: auto;
+        max-height: 580px;
     }  
     .div3 { 
         width: 99%;
@@ -386,14 +386,14 @@ footer{
         width: 50%;
         float: left;
     /*    border: 5px solid black;*/
-        height: auto;
+       max-height: 580px;
         padding: 3px;}
     .div2 {
         width: 50%;
         float: left;
     /*    border: 5px solid black;*/
         padding: 3px;
-        height: auto;
+        max-height: 580px;
     }  
     .div3 { 
         width: 100%;
