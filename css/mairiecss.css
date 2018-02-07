@@ -130,7 +130,7 @@ body{
     padding: 40px;
     margin-bottom: 10px;
     overflow: hidden;
-    border-radius: 8px;
+/*     border-radius: 8px; */
 /*    background-color: gainsboro;*/
     background-color: #E9F7EF;/*#C1E1A6; #333333; #ABDCD6; #EB593C; #FFFCEC; #95A5A6*/
 }
@@ -168,7 +168,7 @@ p {
 img{
     width: 99%;
     height: 100%;
-    border-radius: 20px;
+/*     border-radius: 20px; */
 }
 
 .largeimg {
@@ -318,7 +318,7 @@ footer{
         padding: 2px;
         margin-bottom: 10px;
         overflow: hidden;
-        border-radius: 8px;
+/*         border-radius: 8px; */
         background-color: #E9F7EF;/*#C1E1A6; #333333; #ABDCD6; #EB593C; #FFFCEC; #95A5A6*/
 }
     nav a {
@@ -400,7 +400,7 @@ footer{
         padding: 2px;
         margin-bottom: 10px;
         overflow: hidden;
-        border-radius: 8px;
+/*         border-radius: 8px; */
         background-color: #E9F7EF;/*#C1E1A6; #333333; #ABDCD6; #EB593C; #FFFCEC; #95A5A6*/
 }
     nav a {
