@@ -318,7 +318,7 @@ footer{
         padding: 2px;
         margin-bottom: 10px;
         overflow: hidden;
-        border-radius: 8px;
+/*         border-radius: 8px; */
         background-color: #E9F7EF;/*#C1E1A6; #333333; #ABDCD6; #EB593C; #FFFCEC; #95A5A6*/
 }
     nav a {
@@ -355,7 +355,7 @@ footer{
 .div6{
     margin-bottom: 10px;
     overflow: hidden;
-    border-radius: 8px;
+/*     border-radius: 8px; */
 /*    background-color: gainsboro;*/
     background-color: #C1E1A6;
     height: auto;
@@ -400,7 +400,7 @@ footer{
         padding: 2px;
         margin-bottom: 10px;
         overflow: hidden;
-        border-radius: 8px;
+/*         border-radius: 8px; */
         background-color: #E9F7EF;/*#C1E1A6; #333333; #ABDCD6; #EB593C; #FFFCEC; #95A5A6*/
 }
     nav a {
@@ -437,7 +437,7 @@ footer{
 .div6{
     margin-bottom: 10px;
     overflow: hidden;
-    border-radius: 8px;
+/*     border-radius: 8px; */
 /*    background-color: gainsboro;*/
     background-color: #C1E1A6;
     height: auto;
