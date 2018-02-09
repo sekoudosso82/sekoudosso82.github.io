@@ -174,7 +174,7 @@ img{
  }
 
 img:hover {
-    box-shadow: 1 1 2px 1px #ff0000;
+    box-shadow: 1 1 2px 1px rgb(255, 0, 0);
 }
 
 
