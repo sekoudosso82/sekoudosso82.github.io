@@ -3,7 +3,7 @@
 // settimeout is in milliseconds
 
 var presentationImage = document.getElementById("test");
-var presentationArray = ["images/presentation1.jpg","images/presentation2.jpg","images/presentation3.jpg","images/presentation4.jpg","images/presentation5.jpg","images/presentation6.jpg","images/presentation7.jpg","images/presentation8.jpg","images/presentation9.jpg"];
+var presentationArray = ["images/presentation2.jpg","images/presentation3.jpg","images/logo1.jpg"];
 var presentationIndex = 0;
 
 function changeImage() {
@@ -35,7 +35,7 @@ setInterval(changeActivitiesImage,1000);
 
 // fonction to change news background images
 var pompeImage = document.getElementById("pompe");
-var pompeArray = ["images/pompe1.jpg","images/pompe2.jpg","images/pompe3.jpg","images/pompe4.jpg","images/pompe5.jpg","images/pompe6.jpg","images/pompe8.jpg","images/pompe9.jpg","images/pompe10.jpg",];
+var pompeArray = ["images/pompe1.jpg","images/pompe2.jpg","images/pompe3.jpg","images/pompe4.jpg","images/pompe5.jpg","images/pompe6.jpg","images/pompe8.jpg","images/pompe9.jpg"];
 var pompeIndex = 0;
 
 function changePompeImage() {
@@ -50,7 +50,7 @@ function changePompeImage() {
 setInterval(changePompeImage,1000);
 
 var nouvelAnImage = document.getElementById("nouvelAn");
-var nouvelAnArray = ["images/nouvelAn1.jpg","images/nouvelAn2.jpg","images/nouvelAn3.jpg","images/nouvelAn4.jpg"];
+var nouvelAnArray = ["images/nouvelAn5.jpg","images/nouvelAn4.jpg"];
 var nouvelAnIndex = 0;
 
 function changenouvelAnImage() {
@@ -97,4 +97,42 @@ function changeglobalImage() {
 
 // setInterval is also in milliseconds
 setInterval(changeglobalImage,1000);
+
+// fonction to change auberge images
+var aubergeImage = document.getElementById("auberge");
+var aubergeArray = ["images/auberge1.png","images/auberge2.png","images/auberge3.png","images/auberge4.png","images/auberge5.png","images/auberge6.png","images/auberge7.png"];
+var aubergeIndex = 0;
+
+function changeaubergeImage() {
+	aubergeImage.setAttribute("src", aubergeArray[aubergeIndex]);
+	aubergeIndex++ ;
+	if (aubergeIndex >= aubergeArray.length) {
+		aubergeIndex = 0;
+	}
+}
+
+// setInterval is also in milliseconds
+setInterval(changeaubergeImage,1000);
+
+// fonction to change anacardier images
+var anacardierImage = document.getElementById("anacardier");
+var anacardierArray = ["images/anacardier01.jpeg","images/anacardier02.jpeg","images/anacardier03.jpeg","images/anacardier04.JPG"];
+var anacardierIndex = 0;
+
+function changeanacardierImage() {
+	anacardierImage.setAttribute("src", anacardierArray[anacardierIndex]);
+	anacardierIndex++ ;
+	if (anacardierIndex >= anacardierArray.length) {
+		anacardierIndex = 0;
+	}
+}
+
+// setInterval is also in milliseconds
+setInterval(changeanacardierImage,1000);
+
+
+
+
+
+
 
