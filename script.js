@@ -3,7 +3,7 @@
 // settimeout is in milliseconds
 
 var presentationImage = document.getElementById("test");
-var presentationArray = ["images/presentation2.jpg","images/presentation3.jpg","images/logo1.jpg"];
+var presentationArray = ["images/presentation2.jpg","images/presentation3.jpg"];
 var presentationIndex = 0;
 
 function changeImage() {
