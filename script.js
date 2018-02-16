@@ -37,7 +37,6 @@ setInterval(changeActivitiesImage,1000);
 var pompeImage = document.getElementById("pompe");
 var pompeArray = ["images/pompe1.jpg","images/pompe2.jpg","images/pompe3.jpg","images/pompe4.jpg","images/pompe5.jpg","images/pompe6.jpg","images/pompe8.jpg","images/pompe9.jpg"];
 var pompeIndex = 0;
-
 function changePompeImage() {
 	pompeImage.setAttribute("src", pompeArray[pompeIndex]);
 	pompeIndex++ ;
@@ -50,7 +49,7 @@ function changePompeImage() {
 setInterval(changePompeImage,1000);
 
 var nouvelAnImage = document.getElementById("nouvelAn");
-var nouvelAnArray = ["images/nouvelAn5.jpg","images/nouvelAn4.jpg"];
+var nouvelAnArray = ["images/nouvelAn5.JPG","images/nouvelAn4.jpg"];
 var nouvelAnIndex = 0;
 
 function changenouvelAnImage() {
